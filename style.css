@@ -2,12 +2,13 @@
 /*NOTICE: USE ONLY PERCENTAGES */
 .devLink {
     font-size: 50%;
-
+    color: white;
+    font-family: monospace;
 }
 
 .devLinkUl {
 
 }
 .devLinks {
-
+    float: right;
 }
