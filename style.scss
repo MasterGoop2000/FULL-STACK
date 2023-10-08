@@ -2,12 +2,14 @@
 /*NOTICE: USE ONLY PERCENTAGES */
 $boldText: white;
 .devLink {
-    font-size: 50%;
+    font-size: 150%;
     color: white;
     font-family: monospace;
     display: inline-block
 }
-
+.devLink:hover {
+    font-size: 170%
+}
 
 /*.devLinkUl {
 
