@@ -8,8 +8,7 @@ $boldText: white;
     display: inline-block
 }
 .devLink.hover {
-    @extend .devLink;
-    font-size: 60%;
+    color: green
 }
 
 /*.devLinkUl {

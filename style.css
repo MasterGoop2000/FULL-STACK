@@ -1,6 +1,6 @@
 /* SASS FILE */
 /*NOTICE: USE ONLY PERCENTAGES */
-.devLink, .devLink.hover {
+.devLink {
   font-size: 50%;
   color: white;
   font-family: monospace;
@@ -8,7 +8,7 @@
 }
 
 .devLink.hover {
-  font-size: 60%;
+  color: green;
 }
 
 /*.devLinkUl {
