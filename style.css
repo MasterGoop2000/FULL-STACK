@@ -1,13 +1,20 @@
 /* SASS FILE */
 /*NOTICE: USE ONLY PERCENTAGES */
-.devLink {
+.devLink, .devLink.hover {
   font-size: 50%;
   color: white;
   font-family: monospace;
   display: inline-block;
 }
 
-h .devLinks {
+.devLink.hover {
+  font-size: 60%;
+}
+
+/*.devLinkUl {
+
+}*/
+.devLinks {
   float: right;
 }
 
