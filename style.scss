@@ -6,10 +6,11 @@
     font-family: $fontFamily;
 }
 
-@mixin divTemp($width, $height){
+@mixin divTemp($width, $height, $image){
     width: $width;
     height: $height;
     border: 1px solid black;
+    background-image: url($image)
 }
 
 $boldText: white;
@@ -39,7 +40,7 @@ $boldText: white;
 }
 
 .secondDiv {
-    @include divTemp(screen, 40%)
+    @include divTemp(screen, 40%, "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fsuper-high-resolution-nature-c6rmcu9iol6osuzx.html&psig=AOvVaw2WBkuWk3X4fYCCd-xyYS6y&ust=1697368908933000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNi-0YG29YEDFQAAAAAdAAAAABAE")
     
 }
 
