@@ -6,4 +6,4 @@ setInterval(function(){
     } else {
         document.getElementsByClassName("title").style.color = "black";
     }
-})
+}, 1000);
