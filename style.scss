@@ -27,7 +27,8 @@ $boldText: white;
 }
 
 .title {
-    @include text(white, 300%, monospace)
+    @include text(black, 300%, monospace)
+
 }
 .para {
     @include text(white, 150%, monospace)
