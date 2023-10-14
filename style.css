@@ -32,9 +32,8 @@
 
 .secondDiv {
   width: screen;
-  height: 20%;
+  height: 40%;
   border: 1px solid black;
-  background-image: url("https://i.pinimg.com/736x/1c/0f/bd/1c0fbde175b0658aa9eaba884676f830.jpg");
 }
 
 .thirdDiv {
