@@ -28,9 +28,7 @@ $boldText: white;
     float: right;
 }
 
-.secondDiv {
-    background-image: url
-}
+
 
 .title {
     @include text(black, 300%, monospace)
@@ -41,5 +39,21 @@ $boldText: white;
 }
 
 .secondDiv {
+    @include divTemp(screen, 20%)
+}
+
+.thirdDiv {
+    @include divTemp(screen, 20%)
+}
+
+.fourthDiv {
+    @include divTemp(screen, 20%)
+}
+
+.fifthDiv {
+    @include divTemp(screen, 20%)
+}
+
+.footer {
     @include divTemp(screen, 20%)
 }

@@ -18,10 +18,6 @@
   float: right;
 }
 
-.secondDiv {
-  background-image: url;
-}
-
 .title {
   color: black;
   font-size: 300%;
@@ -35,6 +31,30 @@
 }
 
 .secondDiv {
+  width: screen;
+  height: 20%;
+  border: 1px solid black;
+}
+
+.thirdDiv {
+  width: screen;
+  height: 20%;
+  border: 1px solid black;
+}
+
+.fourthDiv {
+  width: screen;
+  height: 20%;
+  border: 1px solid black;
+}
+
+.fifthDiv {
+  width: screen;
+  height: 20%;
+  border: 1px solid black;
+}
+
+.footer {
   width: screen;
   height: 20%;
   border: 1px solid black;
