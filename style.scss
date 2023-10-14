@@ -39,7 +39,7 @@ $boldText: white;
 }
 
 .secondDiv {
-    @include divTemp(screen, 70%)
+    @include divTemp(screen, 600px)
     
 }
 
