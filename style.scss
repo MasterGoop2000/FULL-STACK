@@ -6,6 +6,12 @@
     font-family: $fontFamily;
 }
 
+@mixin divTemp($width, $height){
+    width: $width;
+    height: $height;
+    border: 1px solid black;
+}
+
 $boldText: white;
 .devLink {
     @include text(white, 150%, monospace);
@@ -32,4 +38,8 @@ $boldText: white;
 }
 .para {
     @include text(white, 150%, monospace)
+}
+
+.secondDiv {
+    @include divTemp(screen, 20%)
 }

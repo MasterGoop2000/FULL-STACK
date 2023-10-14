@@ -32,4 +32,10 @@
   color: white;
   font-size: 150%;
   font-family: monospace;
+}
+
+.secondDiv {
+  width: screen;
+  height: 20%;
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
