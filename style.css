@@ -32,9 +32,8 @@
 
 .secondDiv {
   width: screen;
-  height: 60%;
+  height: 70%;
   border: 1px solid black;
-  background-image: url("images/calmingimageDiv2.jpg");
 }
 
 .thirdDiv {
