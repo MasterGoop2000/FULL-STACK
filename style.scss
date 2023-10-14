@@ -39,8 +39,8 @@ $boldText: white;
 }
 
 .secondDiv {
-    @include divTemp(screen, 40%)
-    
+    background-color: url("https://i.pinimg.com/736x/c6/3d/79/c63d79696eff79589212c4c11adfb1f4.jpg");
+    @include divTemp(screen, 40%);
 }
 
 .thirdDiv {
