@@ -1,5 +1,10 @@
 /* SASS FILE */
 /*NOTICE: USE ONLY PERCENTAGES */
+@mixin text($color, $size){
+    color: $color;
+    size: $size;
+}
+
 $boldText: white;
 .devLink {
     font-size: 150%;
