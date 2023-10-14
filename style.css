@@ -59,4 +59,10 @@
   width: screen;
   height: 20%;
   border: 1px solid black;
+}
+
+#aboutLink:hover {
+  font-size: 120%;
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

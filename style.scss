@@ -59,4 +59,8 @@ $boldText: white;
     @include divTemp(screen, 20%)
 }
 
-.
+#aboutLink:hover {
+    font-size: 120%;
+    background-color: black;
+    color: white;
+}
