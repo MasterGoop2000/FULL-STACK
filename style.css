@@ -2,7 +2,8 @@
 /*NOTICE: USE ONLY PERCENTAGES */
 .devLink {
   color: white;
-  size: 150%;
+  font-size: 150%;
+  font-family: monospace;
   display: inline-block;
 }
 
