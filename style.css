@@ -20,4 +20,16 @@
 
 .secondDiv {
   background-image: url;
+}
+
+.title {
+  color: white;
+  font-size: 300%;
+  font-family: monospace;
+}
+
+.para {
+  color: white;
+  font-size: 150%;
+  font-family: monospace;
 }/*# sourceMappingURL=style.css.map */
