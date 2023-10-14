@@ -7,9 +7,6 @@
 
 $boldText: white;
 .devLink {
-    /*font-size: 150%;
-    color: white;
-    font-family: monospace;*/
     @include text(white, 150%, monospace);
     display: inline-block
 }
