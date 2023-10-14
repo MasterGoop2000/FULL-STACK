@@ -1,15 +1,16 @@
 /* SASS FILE */
 /*NOTICE: USE ONLY PERCENTAGES */
-@mixin text($color, $size){
+@mixin text($color, $size, $font){
     color: $color;
     size: $size;
 }
 
 $boldText: white;
 .devLink {
-    font-size: 150%;
+    /*font-size: 150%;
     color: white;
-    font-family: monospace;
+    font-family: monospace;*/
+    @include text(white, 150%, monospace);
     display: inline-block
 }
 .devLink:hover {
