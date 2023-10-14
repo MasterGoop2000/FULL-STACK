@@ -1,8 +1,9 @@
 /* SASS FILE */
 /*NOTICE: USE ONLY PERCENTAGES */
-@mixin text($color, $size, $font){
+@mixin text($color, $size, $fontFamily){
     color: $color;
-    size: $size;
+    font-size: $size;
+    font-family: $fontFamily;
 }
 
 $boldText: white;
