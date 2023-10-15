@@ -40,7 +40,7 @@ $boldText: white;
 
 .secondDiv {
     background-image: url("images/calmingimageDiv2.jpg");
-    @include divTemp(screen, 1000%);
+    @include divTemp(screen, 400px);
 }
 
 .thirdDiv {
