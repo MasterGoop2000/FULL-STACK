@@ -1,7 +1,7 @@
 // JavaScript Code Here
 let color1 = "black";
 setInterval(function(){
-    if(color == "black"){
+    if(color1 == "black"){
         document.getElementById("mainT").style.color = "white";
         color = "white";
     } else {
