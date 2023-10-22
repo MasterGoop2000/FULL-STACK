@@ -63,6 +63,19 @@
   border: 1px solid black;
 }
 
+#aboutLink {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  border-radius: 20px;
+  font-family: cursive;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-size: 100%;
+}
+
 #aboutLink:hover {
   font-size: 120%;
   background-color: black;
