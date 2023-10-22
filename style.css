@@ -19,12 +19,14 @@
 }
 
 .title {
+  text-align: center;
   color: black;
   font-size: 300%;
   font-family: monospace;
 }
 
 .para {
+  text-align: center;
   color: white;
   font-size: 150%;
   font-family: monospace;

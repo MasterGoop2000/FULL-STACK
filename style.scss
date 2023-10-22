@@ -31,10 +31,11 @@ $boldText: white;
 
 
 .title {
+    text-align: center;
     @include text(black, 300%, monospace)
-
 }
 .para {
+    text-align: center;
     @include text(white, 150%, monospace)
 }
 
